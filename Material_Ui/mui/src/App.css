@@ -1,0 +1,51 @@
+button {
+  border: none;
+  background-color: white;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 120rem;
+  gap: 1.6rem;
+}
+
+/* .card {
+  border: 1px solid #888;
+  padding: 2em;
+  text-align: center;
+  color: white;
+} */
+.App {
+  width: 1200px;
+  margin: 10px auto;
+  /* text-align: center; */
+  /* color: white; */
+}
+.error {
+  color: red;
+}
+body {
+  background-color: black;
+}
+.form-control {
+  margin: 10px 0px;
+}
+
+.inputLeft {
+  margin-left: auto;
+  padding: 10px 8px;
+  width: 200px;
+}
+.text-area {
+  border: 1px solid #888;
+  padding: 10px 8px;
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+  margin: 30px 0px;
+  width: 400px;
+  height: 200px;
+}
+.add {
+  margin-left: auto;
+}
